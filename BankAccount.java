@@ -12,6 +12,10 @@ public class BankAccount {
     public void setPin(int pin){
         this.pin = pin;
     }
+    
+    public double getBalance(){
+        return balance;
+    }
 
     public void deposit(double amount){
         this.balance+=amount;
