@@ -112,7 +112,7 @@ public class BankAccount {
                     break;
             }
         }
-        while (option!='F');
+        while (option!='E');
         System.out.println("Thank you for using our services");
     }
 
